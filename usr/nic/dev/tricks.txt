@@ -1,0 +1,6 @@
+You can hide information inside of photo files! Try using 'cat' on a jpg, and see what you can see.
+
+
+
+This is also how I'm storing my secret key :D
+
