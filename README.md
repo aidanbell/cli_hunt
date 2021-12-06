@@ -3,6 +3,12 @@
 ## Finding Keys
 As a newly hired SysAdmin, you need to clean up the file system of a team of developers. This team consists of 5 users: Alice, Doug, Nicole, Rebecca, and Tom (from MySpace). There's also a program that you're installing, called "AutoSysAdmin", which you'd really like to get up and running so you can play some video games at work. The only problem is, it needs all of the dev's Secret Key, which is stored somewhere in each user's folder.
 
+> Each dev's secret key will look something like this:
+```
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEyMzQ1Njc4OTAiLCJuYW1lIjoiQWxpY2UiLCJ1c3IiOiJhbGkiLCJjYXRfb3JfZG9nIjoiQ2F0IiwiaWF0IjoxNTE2MjM5MDIyfQ.etNfclDe9xe7ZpgZXqaS7OivMoRxF1wzoOovOikfTTY
+
+```
+
 All that you know about the system, is that there is a `usr` directory that contains each users data, and an `mnt` directory that has system related files inside. Each user has three directories: `dev` for all work related files, `docs` for documents, and `pics` for photos. From there, you don't know how each user has decided to organize their data.
 
 ```
